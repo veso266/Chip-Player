@@ -10,7 +10,7 @@ namespace ChipTune_Player
             //Get file into memory
             data = System.IO.File.ReadAllBytes(FileName);
         }
-        public PlayXM(byte[] XMData) //Play from Memory (Base64 encoded)
+        public PlayXM(byte[] XMData) //Play from Memory
         {
             //Get Memory to BASSMOD_MusicLoad
             data = XMData;
