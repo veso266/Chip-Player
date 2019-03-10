@@ -43,7 +43,7 @@ namespace ChipTune_Player
         public static extern bool BASSMOD_Free();
 
         /// <summary>
-        ///     Only used internally! See the file overload of<see cref="M:Un4seen.BassMOD.BassMOD.BASSMOD_MusicLoad(System.IntPtr,System.Int32,System.Int32,Un4seen.BassMOD.BASSMusic)"/> for details!
+        ///    Used to load Music
         /// </summary>
         /// <param name = "mem" > Needs to be set to TRUE</param>
         /// <param name = "XMfile" > An IntPtr to the memory block.</param>
